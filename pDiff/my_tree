@@ -1,0 +1,31 @@
+digraph {
+	action
+	PUT
+	action -> PUT
+	url
+	PUT -> url
+	"/prof/*/exam/1.html"
+	url -> "/prof/*/exam/1.html"
+	"/prof/*/exam/3.html"
+	url -> "/prof/*/exam/3.html"
+	"/stu/bob/exam/2.html"
+	url -> "/stu/bob/exam/2.html"
+	"/prof/*/exam/2.html"
+	url -> "/prof/*/exam/2.html"
+	"/prof/exam"
+	url -> "/prof/exam"
+	"/stu/bob/exam/1.html"
+	url -> "/stu/bob/exam/1.html"
+	"/proj/4.html"
+	url -> "/proj/4.html"
+	"/stu/alice/exam/3.html"
+	url -> "/stu/alice/exam/3.html"
+	"/stu/exam"
+	url -> "/stu/exam"
+	"/proj/6.html"
+	url -> "/proj/6.html"
+	"/proj/2.html"
+	url -> "/proj/2.html"
+	GET
+	action -> GET
+}

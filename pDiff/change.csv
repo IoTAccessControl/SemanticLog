@@ -1,0 +1,9 @@
+PUT,/proj/2.html,DENY
+GET,/proj/3.html,ALLOW
+PUT,/proj/4.html,DENY
+GET,/prof/*/homework/2.html,ALLOW
+GET,/prof/*/homework/3.html,ALLOW
+
+
+GET,/stu/bob/homework/1.html,DENY
+GET,/stu/eve/homework/1.html,DENY
